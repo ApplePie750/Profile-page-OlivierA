@@ -1,0 +1,98 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('images/fond.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+  
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  text-align: center;
+  width: 90%;
+  max-width: 450px;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card .profile-header {
+  background-color: #8e44ad;
+  color: #ffffff;
+  padding: 40px 20px 20px;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+}
+
+.profile-card .profile-header img.profile-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h1, .profile-card .profile-header p {
+  color: #ffffff;
+}
+
+.info-card > h2, .social-card > h2 {
+  padding: 20px;
+  margin: 0;
+  color: #ffffff;
+  background-color: #3498db;
+  border-radius: 20px 20px 0 0;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+  padding: 0 20px;
+}
+
+.linkedin-button {
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: #0077b5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.linkedin-button:hover {
+  background-color: #005fa3;
+  transform: translateY(-3px);
+}
+
+.social-link {
+  display: inline-block;
+  margin: 15px 15px;
+  font-size: 30px;
+  background-color: transparent;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+}
+
+.social-link.linkedin { color: #0077b5; }
+.social-link.twitter { color: #1DA1F2; }
